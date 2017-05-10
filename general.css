@@ -7,7 +7,7 @@ body {
 	background-repeat: no-repeat;	/*background-color: #f5ca5c;*/
 }
 
-/*Header for all pages(ALL STRINGS WILL BE DIFFERENT)*/
+/*TEST--Header for all pages(TYPE THE DEPARTMENT)*/
 h1 {
 	width: 50%;
 	background-color: #000e1a;
@@ -18,7 +18,8 @@ h1 {
 	font-family: Times New Roman, serif;
 	box-shadow: 5px 5px 5px grey;
 	border-radius: 5px;
- }
+	
+}
 
 /*Title labels (font is slightly bigger than p1)*/
 p2 {
@@ -53,10 +54,10 @@ form {
 /*Input for text, varchar, email, and password*/
 input[type=varchar], [type=text], [type=email], [type=password], [type=date], [type=time]{
 	width: 100%;
-    padding: 8px 8px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 2px;
+    	padding: 8px 8px;
+    	display: inline-block;
+    	border: 1px solid #ccc;
+    	border-radius: 2px;
 	font-size: 15px;
 	font-family: Georgia, serif;
 }
@@ -78,7 +79,6 @@ input[type=submit] {
 	display: block;
 }
 
-/*Table design for the appointments*/
 table, th, td {
    border: 1px solid black;
    text-align: left;
@@ -86,7 +86,7 @@ table, th, td {
 
 }
 
-/*General small button design*/
+/*Small buttons/links*/
 a.buttonSmall {
 	text-align: center;
 	width: 18%;
@@ -100,7 +100,7 @@ a.buttonSmall {
 	display: block;
 }
 
-/*General large button design (mainly 'UMBC' title on the top of all pages)*/
+/*Large buttons/links*/
 a.buttonLarge {
 	text-align: center;	
 	width: 20%;
@@ -114,11 +114,12 @@ a.buttonLarge {
 	display: block;
 }
 
-/*Pop-ups*/
+/*Tooltips to popup information when student signs up for an appointment*/
 .tooltip {
     position: relative;
     width: 100%;
     display: inline-block;
+    /*border-bottom: 1px dotted black;*/
 }
 
 .tooltip .tooltiptext {
