@@ -1,0 +1,140 @@
+/*Body for all pages*/
+body {
+	background-image: url("headerImage.jpg");
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	/*background-color: #f5ca5c;*/
+}
+
+/*Header for all pages(ALL STRINGS WILL BE DIFFERENT)*/
+h1 {
+	width: 50%;
+	background-color: #000e1a;
+	text-align: center;
+	color: #f5ca5c;
+	margin: 120px auto 20px;
+	display: block;
+	font-family: Times New Roman, serif;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 5px;
+ }
+
+/*Title labels (font is slightly bigger than p1)*/
+p2 {
+	font-weight:bold;
+	font-size: 18px;
+	text-align: left;
+	font-family: Georgia, serif;
+	width: 100x;
+}  
+
+/*Labels for all input sections in forms*/
+p1 {
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+	font-family: Georgia, serif;
+	width: 100x;
+}
+
+/*Form design*/
+form {
+	margin: 0 auto;
+	width: 40%;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #f5ca5c;
+	text-align: left;
+	box-shadow: 5px 5px 5px grey;
+}
+
+/*Input for text, varchar, email, and password*/
+input[type=varchar], [type=text], [type=email], [type=password], [type=date], [type=time]{
+	width: 100%;
+    padding: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+	font-size: 15px;
+	font-family: Georgia, serif;
+}
+
+/*When you focus on an input area*/
+input[type=varchar]:focus, [type=text]:focus, [type=email]:focus, [type=password]:focus{
+	border: 1px solid #006699;
+}
+
+/*Submit button design*/
+input[type=submit] {
+	background-color: #718CA3;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-family: Georgia, serif;
+	margin: 0 auto;
+	padding: 8px 8px;
+	display: block;
+}
+
+/*Table design for the appointments*/
+table, th, td {
+   border: 1px solid black;
+   text-align: left;
+   tr:nth-child(even) {background-color: #f2f2f2}
+
+}
+
+/*General small button design*/
+a.buttonSmall {
+	text-align: center;
+	width: 18%;
+	color: white;
+	border: none;
+	font-size: 15px;
+	font-family: Georgia, serif;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 8px 8px;
+	display: block;
+}
+
+/*General large button design (mainly 'UMBC' title on the top of all pages)*/
+a.buttonLarge {
+	text-align: center;	
+	width: 20%;
+	color: #f5ca5c;
+	border: none;
+	font-size: 25px;
+	font-family: Georgia, serif;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 8px 8px;
+	display: block;
+}
+
+/*Pop-ups*/
+.tooltip {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 40%;
+    background-color: rgba(0, 0, 0, .65);
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    top: -5px;
+    right: 110%;
+}
+
+.tooltip:hover .tooltiptext {
+    width: 60%;
+    visibility: visible;
+}
